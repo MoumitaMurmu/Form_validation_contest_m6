@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsla(268, 23%, 43%, 1);
+  background-image: radial-gradient(circle, #d1fc23, #ffda50, #ffc29b, #ffc3db, #ffd2f7, #edccf6, #dac7f3, #c7c2ee, #b0adec, #9598eb, #7684e9, #4d72e8);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6C5587", endColorstr="#F86594", GradientType=1 );
+
+}
+form{
+  background-image: radial-gradient(circle, #60ff6b, #00feba, #00f6f1, #3ae9ff, #9bdaff, #a3cefb, #aec1f2, #b9b4e6, #a5a2e6, #8e91e7, #7281e7, #4d72e8);
+  border-radius: 52px 0px 64px 0px;
+-moz-border-radius: 52px 0px 64px 0px;
+-webkit-border-radius: 52px 0px 64px 0px;
+border: 0px solid #000000;
+width:600px;
+height: 550px;
+font-family: 'Comforter Brush', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Fuzzy Bubbles', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-size: medium;
+padding: 15px;
+background: transparent;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+}
+.hobbies-box{
+  padding:3px;
+}
+#fullName, #gender{
+  border-radius: 0px 30px 0px 22px;
+-moz-border-radius: 0px 30px 0px 22px;
+-webkit-border-radius: 0px 30px 0px 22px;
+border: .25px solid #000000;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+}
+#checkboxNoLabel,.btn{
+  border-radius: 0px 30px 0px 22px;
+-moz-border-radius: 0px 30px 0px 22px;
+-webkit-border-radius: 0px 30px 0px 22px;
+border: 0px solid #000000;
+
+
+box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+padding:10px;
+}
+ 
